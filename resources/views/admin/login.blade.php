@@ -71,5 +71,6 @@
 		<script src="{{asset('admin_assets/js/adminlte.min.js')}}"></script>
 		<!-- AdminLTE for demo purposes -->
 		<!-- <script src="js/demo.js"></script> -->
+		
 	</body>
 </html>
