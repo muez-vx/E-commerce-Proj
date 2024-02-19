@@ -30,6 +30,11 @@
 									<span class="fas fa-envelope"></span>
 					  			</div>
 							</div>
+
+							@error('email')
+							<p></p>
+							@enderror
+							
 				  		</div>
 				  		<div class="input-group mb-3">
 							<input type="password"  name="password" id="password" class="form-control" placeholder="Password">
