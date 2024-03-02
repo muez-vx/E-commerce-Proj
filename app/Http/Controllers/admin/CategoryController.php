@@ -11,7 +11,7 @@ class CategoryController extends Controller
 
     }
     public function create(){
-        echo"category create page ";
+        return view('admin.category.create');
 
     }
     public function store(){
